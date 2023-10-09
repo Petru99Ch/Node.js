@@ -32,10 +32,11 @@ io.question('Choose the day (1..7)',(value)=>{
                 toNumber = data.indexOf(data[i])    
                 console.log(toNumber)
             }    
-            for(let i = fromNumber; i<=toNumber;i++ ){            
-                console.log(`[${data[i].date}]: ${data[i].temp} : ${data[i].day_name}`)
-    
-            }
+            
+        }
+        for(let i = fromNumber; i<=toNumber;i++ ){            
+            console.log(`[${data[i].date}]: ${data[i].temp} : ${data[i].day_name}`)
+
         }
         
         
