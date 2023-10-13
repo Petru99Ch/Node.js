@@ -1,12 +1,25 @@
-function isNumber(arr,array){
-    arr.forEach(value => {
-        if(typeof value == number){
-            array.push(+value)
+function isNumber(initValue,result){
+    initValue.forEach(value => {
+        if(typeof value == 'number'){
+            result.push(+value)
         }
     })
-
-    return array
-    
-}
-
-module.exports.isNumber = isNumber
+  
+    return result
+  
+  }
+  
+  function checkError(initValue, error){
+    initValue.forEach(value => {
+        if(typeof value == 'number'){
+            error++
+        }
+    })
+  
+    return error
+  
+  }
+  
+  module.exports.isNumber = isNumber
+  module.exports.checkError = checkError
+  
