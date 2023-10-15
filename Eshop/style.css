@@ -1,0 +1,14 @@
+.swiper {
+  margin: 100px auto;
+    width: 1600px;
+    height: 600px;
+  }
+.card-custom {
+  width: 70%;
+  height: 90%;
+ 
+}
+
+.custom-image {
+  width: 100%;
+}
